@@ -1,13 +1,13 @@
-#FrontEnd FourInLine
+#FrontEnd test_FourInLine
 
 # import unittest
 
-from FourInLine import FourInLine
-from FourInLine import Overflow
-from FourInLine import Winner
-from FourInLine import OutOfRange
-from FourInLine import NotNum
-from FourInLine import Quit
+from test_FourInLine import FourInLine
+from test_FourInLine import Overflow
+from test_FourInLine import Winner
+from test_FourInLine import OutOfRange
+from test_FourInLine import NotNum
+from test_FourInLine import Quit
 
 class Frontendgame():
     def __init__(self):        
@@ -57,31 +57,6 @@ if __name__ == '__main__':
 
 
 
-# def run(self):
-#     self.backendboard = FourInLine()
-#     self.motor = True
-#     self.tablero = [[" " for _ in range(8)] for _ in range(8)]
-#     while self.motor == True:
-#         for row in range(8):
-#             for column in range(8):
-#                 if self.backendboard.board[row][column]== 0:
-#                     self.tablero[row][column] = "X"
-#                 elif self.backendboard.board[row][column]== 1:
-#                     self.tablero[row][column] = "O"
-#                 else:
-#                     self.tablero[row][column] = " "
-#         print(self.tablero)        
-# print("\n")
-# run()
-
-
-
-
-
-
-
-
-
 
 
 
@@ -117,7 +92,7 @@ if __name__ == '__main__':
 
 
 #     def __init__(self):
-#         self.FE4Line = FourInLine()
+#         self.FE4Line = test_FourInLine()
 #         self.run = True
 #         self.interaction = input("\n""Number between 0 - 7 or if you want to quit put 'q':")
 
